@@ -12,7 +12,7 @@ import json
 ```
 
 Since we want to let the user decide wether he wants to login or sign in, lets run our code in an infinite loop with 2 `if` statements.
-```
+```py
 while True:
     x = input("Do you want to sign in or log in?(login/sign): ")#determining wether to login or sign in
     print("")
